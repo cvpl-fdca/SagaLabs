@@ -4,8 +4,8 @@ This is how you connect to FDCA's SagaLabs through a VPN connection.
 
 ## Red team
 
-Lab 1: https://sl-p-uc1-lab1-pre-vpn.westeurope.cloudapp.azure.com/
-Lab 2: https://sl-p-uc1-lab2-pre-vpn.westeurope.cloudapp.azure.com/
+Lab 1: https://sl-p-uc1-lab1-pre-vpn.westeurope.cloudapp.azure.com/ \
+Lab 2: https://sl-p-uc1-lab2-pre-vpn.westeurope.cloudapp.azure.com/ \
 Lab 3: https://sl-p-uc1-lab3-pre-vpn.westeurope.cloudapp.azure.com/
 
 ## Blue team
@@ -59,13 +59,13 @@ openvpn3 session-manage --disconnect --config ~/Downloads/<name>.ovpn
 
 ## Credentials for red team
 
-C2 server (SSH):
-IP: `10.255.255.244`
-Username: `SagaC2`
+C2 server (SSH): \
+IP: `10.255.255.244` \
+Username: `SagaC2` \
 Password: `vFz3fcMPsTgaQAQLZMhTdfnu0HfCICeuXtooqEwfck05CthX8XOlYq`
 
-RedTeamTools (RDP):
-IP: `10.10.10.99`
-Username: `RedTeam`
+RedTeamTools (RDP): \
+IP: `10.10.10.99` \
+Username: `RedTeam` \
 Password: `Password1234!`
 
