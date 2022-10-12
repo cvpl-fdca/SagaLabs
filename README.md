@@ -1,14 +1,13 @@
 # SagaLabs
 
-## Prerequisites
-
-- Install [OpenVPN3](https://openvpn.net/cloud-docs/openvpn-3-client-for-linux/) (Linux link)
-
 This is how you connect to FDCA's SagaLabs through a VPN connection.
 
-Prerequisites:  
+## Prerequisites
+
+- Install OpenVPN3
+
 - Windows/MAC: OpenVPN client, download here: https://openvpn.net/community-downloads/  
-- Linux: OpenVPN  client guide here: https://openvpn.net/cloud-docs/openvpn-3-client-for-linux/
+- Linux: OpenVPN client guide here: https://openvpn.net/cloud-docs/openvpn-3-client-for-linux/
 
 ### Windows
 
@@ -46,3 +45,19 @@ openvpn3 session-start --config ~/Downloads/<name>.ovpn
 openvpn3 session-manage --disconnect --config ~/Downloads/<name>.ovpn
 ```
 7. You are done! You should now be able to see that you are connected, your VPN IP-Address (should be something like 10.8.0.x).
+
+
+# Links
+
+## Red team
+
+Lab 1: https://sl-p-uc1-lab1-pre-vpn.westeurope.cloudapp.azure.com/
+Lab 2: https://sl-p-uc1-lab2-pre-vpn.westeurope.cloudapp.azure.com/
+Lab 3: https://sl-p-uc1-lab3-pre-vpn.westeurope.cloudapp.azure.com/
+
+## Blue team
+
+Lab 1: https://sl-p-uc1-lab1-post-vpn.westeurope.cloudapp.azure.com/
+
+The scoreboard for blue teaming can be found at: https://sagalabs.ctfd.io/ 
+
