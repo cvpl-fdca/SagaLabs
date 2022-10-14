@@ -56,9 +56,13 @@ openvpn3 session-start --config ~/Downloads/<name>.ovpn
 ```bash
 openvpn3 session-manage --disconnect --config ~/Downloads/<name>.ovpn
 ```
+#Credentials and Info
 
 ## Credentials for blue team
 
+<details>
+<summary>Blue team click here</summary>
+  
 Elastic: \
 URL: https://fdca.kb.westeurope.azure.elastic-cloud.com:9243/app/fleet/policies \
 Username: `BlueTeam` \
@@ -69,7 +73,13 @@ IP: `10.10.10.30:9000` \
 Username: `TBA` \
 Password: `TBA`
 
-## Credentials for red team
+The lab looks like this:
+![image](https://user-images.githubusercontent.com/57937804/195906645-b16634ec-e051-4edb-b01f-3af9b4d667dd.png)
+
+</details>
+
+<details>
+<summary>Red team click here</summary>
 
 C2 server (SSH): \
 IP: `Redacted. Spørg din underviser` \
@@ -80,4 +90,4 @@ RedTeamTools (RDP): \
 IP: `10.10.10.99` \
 Username: `RedTeam` \
 Password: `Password1234!`
-
+</details>
