@@ -60,7 +60,7 @@ openvpn3 session-manage --disconnect --config ~/Downloads/<name>.ovpn
 ## Credentials for blue team
 
 Elastic: \
-URL: `https://fdca.kb.westeurope.azure.elastic-cloud.com:9243/app/fleet/policies` \
+URL: https://fdca.kb.westeurope.azure.elastic-cloud.com:9243/app/fleet/policies \
 Username: `BlueTeam` \
 Password: `Redacted. Spørg din underviser`
 
