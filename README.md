@@ -60,7 +60,7 @@ openvpn3 session-manage --disconnect --config ~/Downloads/<name>.ovpn
 ## Credentials for red team
 
 C2 server (SSH): \
-IP: `10.255.255.244` \
+IP: `Redacted, Spørg din underviser` \
 Username: `SagaC2` \
 Password: `vFz3fcMPsTgaQAQLZMhTdfnu0HfCICeuXtooqEwfck05CthX8XOlYq`
 
