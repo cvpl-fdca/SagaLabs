@@ -56,11 +56,30 @@ openvpn3 session-start --config ~/Downloads/<name>.ovpn
 ```bash
 openvpn3 session-manage --disconnect --config ~/Downloads/<name>.ovpn
 ```
+#Credentials and Info
 
-## Credentials for red team
+## Credentials for blue team
+
+<details>
+<summary>Blue team click here</summary>
+  
+Elastic: \
+URL: https://fdca.kb.westeurope.azure.elastic-cloud.com:9243/app/fleet/policies \
+Username: `BlueTeam` \
+Password: `1mR9Mf9N8ZhtwxjGMkMB`
+
+theHive: \
+IP: `10.10.10.30:9000` \
+Username: `TBA` \
+Password: `TBA`
+
+</details>
+
+<details>
+<summary>Red team click here</summary>
 
 C2 server (SSH): \
-IP: `10.255.255.244` \
+IP: `Redacted. Spørg din underviser` \
 Username: `SagaC2` \
 Password: `vFz3fcMPsTgaQAQLZMhTdfnu0HfCICeuXtooqEwfck05CthX8XOlYq`
 
@@ -68,4 +87,4 @@ RedTeamTools (RDP): \
 IP: `10.10.10.99` \
 Username: `RedTeam` \
 Password: `Password1234!`
-
+</details>
