@@ -73,8 +73,6 @@ IP: `10.10.10.30:9000` \
 Username: `TBA` \
 Password: `TBA`
 
-The lab looks like this:
-
 </details>
 
 <details>
