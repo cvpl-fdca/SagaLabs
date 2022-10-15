@@ -74,7 +74,6 @@ Username: `TBA` \
 Password: `TBA`
 
 The lab looks like this:
-![image](https://user-images.githubusercontent.com/57937804/195906645-b16634ec-e051-4edb-b01f-3af9b4d667dd.png)
 
 </details>
 
